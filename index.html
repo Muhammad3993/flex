@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <!-- style -->
+     <link rel="stylesheet" href="./style/index.css">
+     <!-- aos -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>Flex</title>
+</head>
+<body>
+
+    <main>
+        <!-- navbar -->
+        <nav>
+            <div class="navbar">
+                <a href="./index.html" class="navbar_logo">
+                    <img src="./assets/images/logo.png" alt="Logo">
+                </a>
+                <div class="navbar_links" id="list">
+                    <a href="#" class="navbar_link">Product</a>
+                    <a href="#" class="navbar_link">Features</a>
+                    <a href="#" class="navbar_link">Pricing</a>
+                    <a href="#" class="navbar_link">Resources</a>
+                    <div class="navbar_btns navbar_btns_another">
+                        <button class="navbar_btn">Login</button>
+                        <button class="navbar_btn sign_up_btn">Sign Up</button>
+                    </div>
+                    <button class="navbar_close" id="nav_close">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="navbar_btns">
+                    <button class="navbar_btn">Login</button>
+                    <button class="navbar_btn sign_up_btn">Sign Up</button>
+                </div>
+                <button class="navbar_menu" id="nav_menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <!-- hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero_main">
+                    <img src="./assets/images/symbol.png" alt="" class="hero_symbol">        
+                    <img src="./assets/images/symbol1.png" alt="" class="hero_symbol1">
+                    <img src="./assets/images/symbol2.png" alt="" class="hero_symbol2">
+                    <img src="./assets/images/symbol3.png" alt="" class="hero_symbol3">
+                    <span class="tag">HEADER</span>
+                    <p class="hero_title">A small business is only as good as its tools.</p>
+                    <p class="hero_subtitle">We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                    <form class="hero_form">
+                        <label class="hero_input">
+                            <span><i class="bi bi-envelope"></i></span>
+                            <input type="text" placeholder="Enter your work email">
+                        </label>
+                        <button class="hero_btn">Get early access</button>
+                    </form>
+                    <p class="hero_l-title">Start your free 14-day trial today, no credit card required.</p>
+                </div>
+            </div>
+        </section>
+        <!-- partners -->
+        <section class="partners">
+            <div class="container">
+                <div class="partners_main">
+                    <p class="partners_title">Join 4,000+ companies already growing</p>
+                    <div class="partners_boxes">
+                        <div class="partners_box">
+                            <img src="./assets/images/partner.svg" alt="">
+                        </div>
+                        <div class="partners_box">
+                            <img src="./assets/images/partner1.svg" alt="">
+                        </div>
+                        <div class="partners_box">
+                            <img src="./assets/images/partner2.svg" alt="">
+                        </div>
+                        <div class="partners_box">
+                            <img src="./assets/images/partner3.svg" alt="">
+                        </div>
+                        <div class="partners_box">
+                            <img src="./assets/images/partner4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners_wave">
+                <img src="././assets/images/wave.svg" alt="">
+            </div>
+        </section>
+        <!-- about -->
+        <section class="about">
+            <div class="container">
+                <div class="about_main">
+                    <span class="tag">FEATURES</span>
+                    <p class="about_title">Gain more insight into how people use your</p>
+                    <p class="about_subtitle">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+                    <div class="about_main_boxes">
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <p class="about_main_box_title">Measure your performance</p>
+                            <p class="about_main_box_description">Stay connected with your team and make quick decisions wherever  you are. </p>
+                        </div>
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <p class="about_main_box_title">Custom analytics</p>
+                            <p class="about_main_box_description">Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.</p>
+                        </div>
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <p class="about_main_box_title">Team Management</p>
+                            <p class="about_main_box_description">Our calendar lets you know what is happening with customer and projects so you</p>
+                        </div>                        
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-pencil"></i>
+                            </div>
+                            <p class="about_main_box_title">Build your website</p>
+                            <p class="about_main_box_description">A tool that lets you build a dream website even if you know nothing about web design or programming.</p>
+                        </div>
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-border-all"></i>
+                            </div>
+                            <p class="about_main_box_title">Connect multiple apps</p>
+                            <p class="about_main_box_description">The first business platform to bring together all of your products from one place.</p>
+                        </div>
+                        <div class="about_main_box">
+                            <div class="about_main_box_icon">
+                                <i class="bi bi-gear"></i>
+                            </div>
+                            <p class="about_main_box_title">Easy setup</p>
+                            <p class="about_main_box_description">End to End Business Platform, Sales Management, Marketing Automation, Help Desk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- period -->
+        <section class="period">
+            <div class="container">
+                <div class="period_main">
+                    <div class="period_main_left">
+                        <p class="period_title">The fastest way from idea to live site. Period.</p>
+                        <p class="period_subtitle">Flex is a Small SaaS Business. Flex isn’t a traditional company.</p>
+                    </div>
+                    <div class="period_main_right">
+                        <button class="period_btn success">Get Started</button>
+                        <button class="period_btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- data -->
+        <section class="data">
+            <div class="container">
+                <div class="data_main">
+                    <span class="tag">FEATURES</span>
+                    <p class="data_title">Gain more insight into how people use your</p>
+                    <p class="data_subtitle">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+
+                    <div data-aos="fade-left" data-aos-offset="100" class="data_main_box" style="margin-top: 60px;">
+                        <div class="data_main_box_left">
+                            <div class="data_main_box_left_row">
+                                <div>
+                                    <div class="about_main_box_icon">
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="data_main_box_left_row_text">
+                                    <p class="data_main_box_left_row_text_title">Measure your performance</p>
+                                    <p class="data_main_box_left_row_text_description">Stay connected with your team and make quick decisions wherever  you are. </p>
+                                </div>
+                            </div>                         
+                            <div class="data_main_box_left_row">
+                                <div>
+                                    <div class="about_main_box_icon">
+                                        <i class="bi bi-pencil"></i>
+                                    </div>
+                                </div>
+                                <div class="data_main_box_left_row_text">
+                                    <p class="data_main_box_left_row_text_title">Build your website</p>
+                                    <p class="data_main_box_left_row_text_description">A tool that lets you build a dream website even if you know nothing about web design or programming.</p>
+                                </div>
+                            </div>
+                            <div class="data_main_box_left_row">
+                                <div>
+                                    <div class="about_main_box_icon">
+                                        <i class="bi bi-border-all"></i>
+                                    </div>
+                                </div>
+                                <div class="data_main_box_left_row_text">
+                                    <p class="data_main_box_left_row_text_title">Connect multiple apps</p>
+                                    <p class="data_main_box_left_row_text_description">The first business platform to bring together all of your products from one place.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data_main_box_right">
+                            <img src="./assets/images/promo.png" alt="">
+                            <img src="./assets/images/symbol4.png" alt="" class="symbol4">
+                            <img src="./assets/images/symbol5.png" alt="" class="symbol5">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-right" data-aos-offset="100" class="data_main_box">
+                        <div class="data_main_box_right">
+                            <img src="./assets/images/promo.png" alt="">
+                            <img src="./assets/images/symbol4.png" alt="" class="symbol4">
+                            <img src="./assets/images/symbol5.png" alt="" class="symbol5">
+                        </div>
+                        <div class="data_main_box_left" style="gap: 0;">
+                            <span class="tag">FEATURES</span>
+                            <p class="data_main_box_left_title">Gain more insight into how people use your</p>
+                            <p class="data_main_box_left_subtitle">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+                            <button class="data_main_box_left_btn">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-offset="100" class="data_main_box">
+                        <div class="data_main_box_left" style="gap: 0;">
+                            <span class="tag">FEATURES</span>
+                            <p class="data_main_box_left_title">Gain more insight into how people use your</p>
+                            <p class="data_main_box_left_subtitle">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
+                            <button class="data_main_box_left_btn">Get Started</button>
+                        </div>
+                        <div class="data_main_box_right">
+                            <img src="./assets/images/promo.png" alt="">
+                            <img src="./assets/images/symbol4.png" alt="" class="symbol4">
+                            <img src="./assets/images/symbol5.png" alt="" class="symbol5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- numbers -->
+        <section class="number">
+            <div class="container">
+                <div class="number_main">
+                    <span class="tag">NUMBERS</span>
+                    <p class="number_title">We believe in the power of data</p>
+                    <p class="number_subtitle">Flex is the only business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                    <div class="number_main_boxes">
+                        <div class="number_main_box">
+                            <p class="number_main_box_value">235.000</p>
+                            <p class="number_main_box_title">Projects completed</p>
+                        </div>
+                        <div class="number_main_box">
+                            <p class="number_main_box_value">$10m</p>
+                            <p class="number_main_box_title">APR</p>
+                        </div>                        
+                        <div class="number_main_box">
+                            <p class="number_main_box_value">+50.000</p>
+                            <p class="number_main_box_title">Hours Saved Annually</p>
+                        </div>
+                        <div class="number_main_box">
+                            <p class="number_main_box_value">3.500</p>
+                            <p class="number_main_box_title">Unique Users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- work -->
+        <setion class="work">
+            <img src="./assets/images/wave.png" alt="" class="work-img">
+            <div class="container">
+                <div class="work_main">
+                    <div class="work_main_top">
+                        <div class="work_main_top_left">
+                            <span class="tag">HOW IT WORKS</span>
+                            <p class="work_main_top_left_title">Gain more insight into how people use your</p>
+                            <p class="work_main_top_left_subtitle">With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage your business in one secure platform.</p>
+                        </div>
+                        <div class="work_main_top_right">
+                            <img src="./assets/images/vid.png" alt="">
+                            <div class="work_main_top_right_play">
+                                <i class="bi bi-play"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work_main_boxes">
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>1</p>
+                            </div>
+                            <p class="work_main_box_title">Measure your performance</p>
+                            <p class="work_main_box_subtitle">Stay connected with your team and make quick decisions wherever you are.</p>
+                        </div>
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>2</p>
+                            </div>
+                            <p class="work_main_box_title">Custom analytics</p>
+                            <p class="work_main_box_subtitle">Get a complete sales dashboard in the cloud. See activity, revenue and social metrics all in one place.</p>
+                        </div>
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>3</p>
+                            </div>
+                            <p class="work_main_box_title">Team Management</p>
+                            <p class="work_main_box_subtitle">Our calendar lets you know what is happening with customer and projects  so you</p>
+                        </div>
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>4</p>
+                            </div>
+                            <p class="work_main_box_title">Build your website</p>
+                            <p class="work_main_box_subtitle">A tool that lets you build a dream website even if you know nothing about web design or programming.</p>
+                        </div>
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>5</p>
+                            </div>
+                            <p class="work_main_box_title">Connect multiple apps</p>
+                            <p class="work_main_box_subtitle">The first business platform to bring together all of your products from one place.</p>
+                        </div>
+                        <div class="work_main_box">
+                            <div class="work_main_box_num">
+                                <p>6</p>
+                            </div>
+                            <p class="work_main_box_title">Easy setup</p>
+                            <p class="work_main_box_subtitle">End to End Business Platform, Sales Management, Marketing Automation, Help Desk</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <img src="./assets/images/wave1.png" alt="" class="work-img1">
+        </setion>
+        <!-- application -->
+        <section class="application">
+            <div class="container">
+                <div class="application_main">
+                    <span class="tag">Application</span>
+                    <p class="application_title">Great work starts with your app</p>
+                    <div class="application_img">
+                        <img src="./assets/images/application.png" alt="">
+                        <img src="./assets/images/symbol.svg" alt="" class="symbol6">
+                        <img src="./assets/images/symbol1.svg" alt="" class="symbol7">
+                    </div>
+                    <p class="application_subtitle">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.</p>
+                    <div class="application_btns">
+                        <button class="application_btn application_btn_success">Learn More</button>
+                        <button class="application_btn">About Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact_main">
+                    <span class="tag">CONTACT</span>
+                    <p class="contact_title">Let’s stay connected</p>
+                    <p class="contact_subtitle">It's never been easier to get in touch with Flex. Call us, use our live chat widget or email and we'll get back to you as soon as possible!</p>
+                    <div class="contact_main_boxes">
+                        <div class="contact_main_box">
+                            <div class="contact_main_box_icon">
+                                <i class="bi bi-envelope-open"></i>
+                            </div>
+                            <p class="contact_main_box_title">Email</p>
+                            <p class="contact_main_box_subtitle">contact@flex.com</p>
+                        </div>                        
+                        <div class="contact_main_box">
+                            <div class="contact_main_box_icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <p class="contact_main_box_title">Phone</p>
+                            <p class="contact_main_box_subtitle">+7-843-672-431</p>
+                        </div>                        
+                        <div class="contact_main_box">
+                            <div class="contact_main_box_icon">
+                                <i class="bi bi-border-all"></i>
+                            </div>
+                            <p class="contact_main_box_title">Socials</p>
+                            <div class="contact_main_box_socials">
+                                <a href="https://www.facebook.com/" class="contact_main_box_social">
+                                    <i class="bi bi-facebook"></i>
+                                </a>                                
+                                <a href="https://x.com/" class="contact_main_box_social">
+                                    <i class="bi bi-twitter"></i>
+                                </a>                                
+                                <a href="https://www.instagram.com/" class="contact_main_box_social">
+                                    <i class="bi bi-instagram"></i>
+                                </a>            
+                                <a href="https://www.linkedin.com/" class="contact_main_box_social">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_map">
+                <div class="container contact_map_main">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193596.01069024275!2d-74.14482881984543!3d40.697370435061835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1719896930817!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer">
+                    <a href="./index.html" class="footer_logo">
+                        <img src="./assets/images/logo1.png" alt="">
+                    </a>
+                    <div class="footer_links">
+                        <a href="#" class="footer_link">Product</a>
+                        <a href="#" class="footer_link">Features</a>
+                        <a href="#" class="footer_link">Pricing</a>
+                        <a href="#" class="footer_link">Resources</a>
+                        <a href="#" class="footer_link">Careers</a>
+                        <a href="#" class="footer_link">Help</a>
+                        <a href="#" class="footer_link">Privacy</a>
+                    </div>
+                    <p class="footer_link">© 2021 Flex. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script defer src="./js/main.js"></script>
+</body>
+</html>
